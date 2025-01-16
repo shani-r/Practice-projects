@@ -1,2 +1,2 @@
 # Practice-projects
-Projects/Labs done through freeCodeCamp
+Projects/Labs done through freeCodeCamp 
