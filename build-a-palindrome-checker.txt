@@ -1,0 +1,141 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <h1>Palindrome Checker</h1>
+    <p>Is it a Palindrome?</p>
+    <div id="pal-chker">
+        <p id="text-color">Enter text to check if it is a palindrome:</p>
+    <input id="text-input">
+    <button id="check-btn">Check</button>
+        <div id="result"></div>
+        </div>
+        </div>
+            <p id="pal-des"><i class="ri-lightbulb-fill"></i>A <em>palindrome</em> is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+            </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+const textInput = document.getElementById("text-input");
+const checkButton = document.getElementById("check-btn");
+const result = document.getElementById("result");
+ 
+checkButton.addEventListener("click", () => {
+  const regex = textInput.value.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+  if (textInput.value === "") {
+      alert("Please input a value");
+  } else if (textInput.value.length === 1) {
+      result.innerText = `${textInput.value} is a palindrome`;
+  } else if (regex === regex
+.split("")
+.reverse()
+.join("")) {
+      result.innerText = `${textInput.value} is a palindrome`;
+  } else {
+    result.innerText = `${textInput.value} is not a palindrome`;
+  }
+})
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --background: #0e172c;
+  --text: #f9f8fc;
+  --cardbackground: #7f5af0;
+  --cardbackground-two: #a786df;
+  --checkbox: #fec7d7;
+}
+
+body {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1,p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+#pal-chker {
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: var(--text);
+  text-align: center;
+  border: 1px solid var(--text);
+  border-radius: 10px 10px;
+  background-size: cover;
+  justify-content: space-around;
+}
+
+#check-btn  {
+  font-size: 14px;
+  width: 15vw;
+  height: 5vh;
+  padding: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--checkbox);
+}
+
+#text-input {
+  margin: 30px;
+  height: 5vh;
+  padding: auto;
+  background-color: var(--text);
+  border-bottom: 3px solid var(--cardbackground-two);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+#text-color {
+  color: var(--background);
+}
+
+#pal-des {
+  margin: 40px auto;
+  width: 100vw;
+  max-width: 500px;
+  min-width: 300px;
+  height: 80px;
+  background-color: var(--cardbackground);
+  color: var(--background);
+}
+
+
+
+
+** end of undefined **
+

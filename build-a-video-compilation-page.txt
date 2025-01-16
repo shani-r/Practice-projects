@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Electric guitar for beginners</h1>
+        <p>Ever wanted to learn to play the electric guitar? Electric guitars are pretty cool to learn if you want to rock out and also improve brain power.</p>
+        <section>
+            <h2>First Beginner Electric Guitar Lesson</h2>
+            <p>In this first video you will be familiarized with the layout of the electric guitar and the functions and setting of your amp. You will also learn how to hold your guitar, pick (if you have one), and how to play notes on the fretboard.</p>
+            <iframe src="https://www.youtube.com/embed/RY3AvEGKfZ0?si=bmg3Pw_uhgvkMXxL" title="beginner electric guitar lesson 1" width="500" height="300" allowfulscreen></iframe>
+        </section>
+        <section>
+            <h2>Second Beginner Electric Guitar Lesson</h2>
+            <p>In this lesson you will learn about some simple power chords since familiarizing yourself withthe basics in the prvious lesson. After this lesson you would have now gaiined some knowlege that lets yuo play some basic notes on popular rock songs.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VjAnb2gBFVI?si=1CbLUCYw4HKn0l24" title="YouTube video player" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Third Beginner Electric Guitar Lesson</h2>
+            <p>In this lesson you will learn how to play a two stringed version of the power chords from the previos lesson with two fingers instead of one.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tWhmSvp1YUY?si=kHVCqW1gPctNhPHC" title="YouTube video player" allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
+
+</html>

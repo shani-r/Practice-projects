@@ -1,0 +1,371 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing</title>
+    <link rel= "stylesheet" href="./styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title="coffee icons">
+    </head>
+    <body>
+      <header id="header">
+        <nav id="nav-bar">
+          <div class="logo">
+            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/05/attachment_73850230-e1493747439213.jpg?auto=format&q=60&fit=max&w=930" alt="logo" id="header-img">
+            <span class="product">Cosmic Coffee</span>
+            </div>
+            <ul class="nav-links">
+              <li><a href="#coffee" class="nav-link">Coffee</a></li>
+              <li><a href="#shop" class="nav-link">Shop</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section id="email-section">
+          <h2>"Awaken Your Senses, One Sip at a Time."</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" required placeholder="Enter email" name="email" />
+          <input type="submit" id="submit" value="Sign Up" />
+          </section>
+          <section id="coffee">
+            <div class="coffee-types">
+              <i class="ri-cup-fill ri-4x"></i>
+            <div>
+            <h2>Signature Blend</h2>
+            <p>"Indulge in Cosmic Harmony with Our Signature Blend, a celestial symphony of flavors that transcends the ordinary." Crafted from a unique combination of beans for a distinct and memorable flavor profile.</p>
+            </div>
+            </div>
+            <div class="coffee-types">
+            <div>
+            <h2>Decadent Espresso</h2>
+            <p>"Experience the Cosmic Awakening with our Decadent Espresso, a celestial elixir that ignites your senses and launches your taste buds into orbit." A rich and bold brew perfect for espresso lovers, delivering a satisfying kick with every shot.</p>
+            </div>
+            </div>
+            <div class="coffee-types">
+            <div>
+            <h2>Flavored Infusions</h2>
+            <p>"Experience Cosmic Coffee's Flavored Infusions: Where earthly flavors mingle with intergalactic delights for a truly out-of-this-world sip."Infuse your coffee menu with delightful flavors like caramel, vanilla, or hazelnut for a sweet and indulgent treat.</p>
+            </div>
+            </div>
+            </section>
+            <section id="product-video">
+            <iframe id="video" height="100" src="https://www.youtube.com/embed/lAd3LYIZMjs?si=DlSyyhmI8AOO74PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+              <section id="shop">
+                <h4>Shop</h4>
+                <div class="product-items">
+                  <div class="items">
+                    <div class="product-image item1"></div>
+                    <div class="inner-items">
+                    <h1 class="product-name">Signature Blend</h1>
+                    <p class="product-size">2lbs (1pk)</p>
+                    <div class="product-price">
+                      <p class="price">$15.00</p>
+                    </div>
+                    <button class="add">
+                      <p style="margin-left:5px">Add to Cart</p>
+                      </button>
+                      </div>
+                  </div>
+                  <div class="items"> 
+                    <div class="product-image item2">
+                    </div>
+                    <div class="inner-items">
+                    <h1 class="product-name">Decadent Expresso</h1>
+                    <p class="product-size">2lbs (1pk)</p>
+                      <div class="product-price">
+                        <p class="price">$20.00</p>
+                      </div>
+                      <button class="add">
+                        <p style="margin-left:5px">Add to Cart</p>
+                      </button>
+                    </div>
+                    </div>
+                  <div class="items"> 
+                    <div class="product-image item3">
+                    </div>
+                    <div class="inner-items">
+                    <h1 class="product-name">Flavored Infusions</h1>
+                    <p class="product-size">2lbs (1pk)</p>
+                    <div class="product-price">
+                      <p class="price">$15.50</p>
+                      </div>
+                      <button class="add">
+                        <p style="margin-left:5px">Add to Cart</p>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section id="contact">
+                  <h3>Contact us</h3>
+                  <div class="contact-links">
+                  <p>Email:<a href="mailto:Cosmic_Coffee@gmail.com">Cosmic_Coffee@gmail.com</a></p>
+                  <p>Phone: <a href="tel:xxxxxxxxxx">(xxx)-xxx-xxxx</a></p>
+                  </div>
+                  </section>
+      </body>
+    </html>
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --color1: #fff;
+  --color2: #a56b00;
+  --color3: #a46f17;
+  --color4: #ddcfc2;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--color3);
+}
+
+#header-img {
+  width: 100px;
+  height: 99px;
+  object-fit: contain;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: calm;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  background-color: var(--color1);
+  padding: 5px;
+}
+
+.product {
+ margin: 25px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color2);
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.product {
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+#email-section {
+  margin-top: 250px; 
+}
+
+input {
+  padding: 10px;
+  border-radius: 3px;
+  border: 3px;
+}
+
+#submit {
+  background-color: var(--color4);
+  color: var(--color1);
+  cursor: pointer;
+}
+
+section::before {
+  display: block;
+  content: "";
+  margin-top: -100px;
+  height: 100px
+  visibility: hidden;
+  pointer-events: none;
+
+}
+
+section {
+  margin: 35px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Papyrus;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.icon {
+  color: var(--color3);
+}
+
+#coffee {
+  margin:10px;
+}
+
+.coffee-types {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 150px;
+}
+
+#video {
+  width: 50%;
+  margin-top: 90px;
+}
+
+#shop {
+  margin-top: 170px;
+  font-family: 'Copperplate';
+}
+
+h4 {
+  font-size: 50px;
+}
+ 
+ .product-image {
+   width: 100%;
+   margin: auto;
+   height: 500px;
+   border: 1px solid var(--color4);
+   border-radius: 10px 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .item1 {
+   background-image: url(https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/6c5bf225-7d71-4f62-a6ed-a0a6a3e5db25/DallEGeneratedImages/dalle-f9269bc4-5481-4557-a3f9-c2c48f9523460251689017915748213200.jpg&dcHint=WestUS2&fileToken=0fa7b361-3d14-454b-976b-a6bea1c9ae15);
+ }
+
+ .item2 {
+   background-image: url(https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/6c5bf225-7d71-4f62-a6ed-a0a6a3e5db25/DallEGeneratedImages/dalle-5eaf889c-6129-41c9-a572-2f23de914d820251689015853257921100.jpg&dcHint=WestUS2&fileToken=0fa7b361-3d14-454b-976b-a6bea1c9ae15);
+ }
+
+ .item3 {
+   background-image: url(https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/6c5bf225-7d71-4f62-a6ed-a0a6a3e5db25/DallEGeneratedImages/dalle-b475088a-82b5-4fc6-b78c-7241239762330251689015538385097000.jpg&dcHint=WestUS2&fileToken=0fa7b361-3d14-454b-976b-a6bea1c9ae15);
+ }
+
+.items {
+  background-color: var(--color4);
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  font-family: 'Copperplate';
+}
+
+.inner-items {
+  justify-content: space-around;
+}
+
+.product-price {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 30px;
+  font-family: 'fantasy';
+  align-items: center;
+  color: var(--color3);
+}
+
+.product-name {
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+.add {
+background-color: var(--color3);
+cursor: pointer;
+padding: 15px;
+margin-bottom: 15px;
+border: none;
+border-radius: 10px;
+width: 75%;
+color: var(--color1);
+font-family: 'fantasy';
+font-weight: 700;
+font-size: 15px;
+}
+
+#contact {
+  margin: 150px;
+  align-items: center;
+
+}
+
+.contact-links {
+  margin: 10px;
+  margin-left: 175px;
+  width: 75%;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Monaco';
+}
+
+@media only screen and (min-width: 600px) {
+  #navbar {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (450px < width < 600px) {
+  .item {
+    font-size: 0.85rem;
+  }
+  .product-image {
+    height: 400px;
+  }
+}
+
+@media only screen and (450px <= width{
+  .item {
+    font-size: 0.85rem;
+    max-width: 525px;
+  }
+  .product-image {
+    width: 100px;
+  }
+  .contact-links {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (width >= 100px) {
+  #video {
+    width: 70%;
+  }
+  .product-items {
+    flex-direction: column;
+  }
+}
+
+** end of undefined **
+

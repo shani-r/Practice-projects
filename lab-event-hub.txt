@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+<header>
+    <h1>Event Hub</h1>
+    <nav>
+        <ul>
+            <li><a href="#upcoming-events">Upcoming Events</a></li>
+            <li><a href="#past-events">Past Events</a></li>
+        </ul>
+    </nav>
+    </h1>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Panda Themed Party</h3>
+                <p>Dress as as any cute panda and come have fun. Food, drinks and games included.</p>
+            </article>
+            <article>
+                <h3>Cute Shark Themed Party</h3>
+                <p>Dress as as any cute shark and come have fun. Food, drinks and games included.</p>
+            </article>
+        </section>
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <article>
+                <h3>Anime Themed Party</h3>
+                <p>Dress as as any anime character and come have fun. Food, drinks and games included.</p>
+                <img src="https://cdn11.bigcommerce.com/s-n6wlwd/images/stencil/500x659/products/44168/61185/56h8e5b7373__89012.1666051069.png?c=2" alt="naofumi from sheild hero costume"></img>
+            </article>
+            <article>
+                <h3>Marvel Themed Party</h3>
+                <p>Dress as as any Marvel character and come have fun. Food, drinks and games included.</p>
+                <img src="https://www.screengeek.net/wp-content/uploads/2016/05/Magnificent-Marvel-Wallpaper.jpg" alt="marvel charters"></img>
+            </article>
+        </section>
+</body>
+
+</html>
